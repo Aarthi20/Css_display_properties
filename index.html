@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Properties</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    .property-none{
+        display: none;
+    }
+    .property-inline{
+        display: inline;
+        color: blueviolet;
+        font-weight: bold;
+    }
+    .property-block{
+        display: block;
+        color: blue;
+        font-weight: bold;
+    }
+    .property-inline-block{
+        display:inline-block;
+        color: rgb(215, 18, 18);
+        font-weight: bold;
+    }
+</style>
+
+<body class="main-app">
+    <div class="none-container">
+    <h1 class="heading">This is display:none </h1>
+    <p>Display: none is a CSS property used to hide <span class="property-none">website</span> elements. here the website word is making it invisible.</p>
+    </div>
+
+    <div class="inline-container">
+        <h1 class="heading">This is display:inline</span></h1>
+        <p>The display option of <span class="property-inline">inline</span> tells the element to fit itself on the same line.</p>
+    </div>
+
+    <div class="block-container">
+        <h1 class="heading">This is block</h1>
+        <p>An element that has the display property set to <span class="property-block"> starts on a new line</span>and takes up the available screen width. </p>
+    </div>
+
+    <div class="inline-block-container">
+        <h1 class="heading">This is inline-block</h1>
+        <p>The display option of <span class="property-inline-block">inline-block</span> allows the element to fit itself on the same line, but it also allows other elements to sit next to it.</p>
+    </div>
+    
+</body>
+</html>
